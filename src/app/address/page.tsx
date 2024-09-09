@@ -3,11 +3,11 @@ import Image from 'next/image'
 const page = () => {
   return (
     <div><figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-    <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/zahid.jpg" alt="" width="384" height="512"/>
+    <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/home.jpg" alt="" width="384" height="512"/>
     <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
       <blockquote>
         <p className="text-lg font-medium">
-        Assalam Alaikum my name is Muhammad Zahid I hail from Ruknpur and now I am doing AI course in Rahim Yar Khan my head is under the supervision of Sir Muhammad Asif I am doing AI course.
+        My name is Muhammad Zahid I live in Basti Jam Huzoor Bakhsh Moza Adam Arain Sardar Garh Rahim Yar Khan.
         </p>
       </blockquote>
       <figcaption className="font-medium">
@@ -15,7 +15,7 @@ const page = () => {
           MUHAMMAD ZAHID
         </div>
         <div className="text-slate-700 dark:text-slate-500">
-          Artificital intellengce Student
+          AI student
         </div>
       </figcaption>
     </div>
